@@ -1,0 +1,100 @@
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Base styling - custom font and ocean blue color scheme */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f6fb;
+    color: #1a2e3b;
+    margin: 0;
+    padding: 20px 40px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #1a6693;
+    font-size: 2rem;
+}
+
+/* Subheadings - smaller than h1 */
+h2 {
+    color: #1a6693;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #2a7aad;
+    font-size: 1.1rem;
+    margin-top: 24px;
+}
+
+/* Paragraphs with custom margins and width */
+p {
+    width: 750px;
+    margin: 16px auto;
+    line-height: 1.8;
+}
+
+/* Intro paragraph with background */
+#intro {
+    background-color: #ddeef8;
+    padding: 20px 24px;
+    border-radius: 4px;
+    width: 750px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+.regular {
+    width: 750px;
+    margin: 16px auto;
+    line-height: 1.8;
+    display: block;
+}
+
+/* Lists with border and padding */
+.contact-list, .travel-list {
+    width: 750px;
+    margin: 12px auto;
+    padding: 16px 16px 16px 36px;
+    background-color: #ddeef8;
+    border: 2px solid #1a6693;
+    border-radius: 4px;
+    line-height: 2.2;
+}
+
+/* Links */
+a {
+    color: #1a6693;
+}
+
+a:hover {
+    color: #0d4a6e;
+}
+
+/* Image centering */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+/* Button */
+button {
+    display: block;
+    margin: 16px auto;
+    padding: 10px 24px;
+    background-color: #1a6693;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d4a6e;
+}
